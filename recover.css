@@ -1,0 +1,51 @@
+*{
+    width: 100;
+    padding: 0;
+}
+
+form{
+    border: rgb(185, 185, 185) solid 8px;
+    background-color: #ffff;
+    width: 25%;
+    padding-left: 15px;
+}
+
+@media(max-width:700px){
+    form{
+        border: rgb(185, 185, 185) solid 8px;
+        background-color: #ffff;
+        width: 82%;
+        padding-left: 10px;
+        height: 35vh;
+    }
+}
+
+.alone{
+    font-size: 23px;
+    border-radius: 6px;
+    margin-bottom: 0px;
+}
+
+
+.login{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+::placeholder{
+    padding-left: 5px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+}
+
+.sumit{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    height: 5vh;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 70%;
+    padding-right: 30px; 
+}
